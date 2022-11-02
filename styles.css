@@ -336,6 +336,15 @@ hr {
     margin-bottom: 4rem;
 }
 
+.navbar h2 {
+    margin-left: 2rem;
+}
+
+.home {
+    padding: 0 2rem;
+
+}
+
 @media screen and (max-width:1024px) {
    
 }
@@ -370,6 +379,19 @@ hr {
 
     .nav-active {
         transform: translateX(0%);
+    }
+
+    .home .home-right {
+        margin-right: 2rem;
+    } 
+
+    .about {
+        margin-left: 2rem;
+    }
+
+    .skills {
+        margin: 2rem;
+  
     }
 
     @keyframes navLinkFade{
